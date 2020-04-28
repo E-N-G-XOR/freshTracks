@@ -92,10 +92,12 @@ Parameters:
 Globals:
   Function:
     Timeout: 10
+    Tracing: Active
   Api:
     # enable CORS; to make more specific, change the origin wildcard
     # to a particular domain name, e.g. "'www.example.com'"
     EndpointConfiguration: EDGE
+    TracingEnabled: True
     Cors: 
       AllowMethods: "'OPTIONS,POST'"
       AllowHeaders: "'Content-Type'"
